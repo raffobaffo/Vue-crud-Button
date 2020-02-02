@@ -42,7 +42,7 @@ Vue-Crud-Button props. name, type, extras:
 
 | Option Name | Type | Default | Description |
 | ----------- | ---- | ------- | ----------- |
-    | `acting` | `Boolean` | `false` |  Should be `True` when `@click` callback can't be called because a CRUD operation is in progress. Ex. Saving changes in description field | 
+| `acting` | `Boolean` | `false` |  Should be `True` when `@click` callback can't be called because a CRUD operation is in progress. Ex. Saving changes in description field | 
 | `active` | `Boolean` | `true` | Should be `True` when `@click` callback can be called. Ex. Description text changed | 
 | `positions` | `Object` | `x: 'center', y: 'middle' ` | X and Y position of the component inside parent container |
 | `activeMessage` | `String` | `"Click me"` | Text to display inside the button when  `@click` callback can be called |
