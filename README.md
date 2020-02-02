@@ -49,3 +49,52 @@ Vue-Crud-Button props. name, type, extras:
 | `actingMessage` | `String` | `"Wait..."` | Text to display inside the button when  a CRUD operation is in progress. |
 | `inactiveMessage` | `String` | `"Clicked"` | Text to display inside the button when  `@click` callback can't be called |
 | `animate` | `Boolean` | `true` | Use transitions for state change. Use velocity.js  |
+| `buttonStyle`| `Object`| see [Styling Object](##✔-Vue-Crud-Button-Styling-Object) | Styling |
+                               
+
+
+## ✔ Vue-Crud-Button Styling Object
+
+The styling object default is like this;
+
+```
+ {
+        active: {
+
+            'backgroundColor': '#fff',
+            'backgroundColorHover': '#4b4b4b',
+            'borderColor': '#575757',
+            'borderColorHover': '#2e2e2e',
+            'color': '#4b4b4b',
+            'colorHover': '#fcfcfc',
+            'fontSize': 'larger',
+            'fontWeight': 800
+        },
+
+        acting: {
+
+            'backgroundColor': '#fff',
+            'backgroundColorHover': '#ff8900',
+            'borderColor': '#ff8900',
+            'borderColorHover': '#ff6405',
+            'color': '#ff6405',
+            'colorHover': '#fff',
+            'fontSize': 'larger',
+            'fontWeight': 800
+        },
+
+        inactive: {
+
+            'backgroundColor': '#fff',
+            'backgroundColorHover': '#f2f2f2',
+            'borderColor': '#e1e1e1',
+            'borderColorHover': '#bfbfbf',
+            'color': '#848484',
+            'colorHover': '#484848',
+            'fontSize': 'larger',
+            'fontWeight': 800
+        }
+    }
+   ```
+   
+    
