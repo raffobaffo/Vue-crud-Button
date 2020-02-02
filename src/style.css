@@ -1,0 +1,74 @@
+.rbf-wb-brd {
+    border: solid 0.2em;
+}
+.rbf-wb-brd-col-active {
+    border-color: #575757;
+}
+.rbf-wb-brd-col-waiting {
+    border-color: #ff8900;
+}
+.rbf-wb-brd-col-inactive {
+    border-color: #e1e1e1;
+}
+
+.rbf-wb-button-inner-content-active {
+    color: #4b4b4b;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.rbf-wb-button-inner-content-waiting {
+    color: #d77000;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.rbf-wb-button-inner-content-inactive {
+
+    color: #848484;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.rbf-wb-button-inner-content-active:hover {
+
+    background-color: #4b4b4b;
+    color: #fcfcfc;
+    border-color: #2e2e2e;
+
+}
+.rbf-wb-button-inner-content-waiting:hover {
+
+    background-color: rgba(225, 225, 225, 0.25);
+    color: #ff6405;
+    border-color: #ff6405;
+
+}
+.rbf-wb-button-inner-content-inactive:hover {
+
+    background-color: rgba(225, 225, 225, 0.25);
+    color: #484848;
+    border-color: #bfbfbf;
+
+}
+
+.rbf-wb-pt {
+    padding-top: 0.25em;
+}
+.rbf-wb-pb {
+    padding-bottom: 0.25em;
+}
+.rbf-wb-pl {
+
+    padding-left: 1em;
+}
+.rbf-wb-pr{
+    padding-right: 1em;
+}
+
+.rbf-wb-brd-rad {
+
+    border-radius: 5em;
+}
+
+
