@@ -36,7 +36,7 @@ npm i @raffobaffo/vue-wait-button
        </div>
 ```
 
-## 🔁 `Vue-Crud-Button` Props
+## ✔ `Vue-Crud-Button` Props
 
 Vue-Crud-Button props. name, type, extras:
 
