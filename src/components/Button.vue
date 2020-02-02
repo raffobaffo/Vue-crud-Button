@@ -87,7 +87,7 @@
 
             active: {
                 type: Boolean,
-                required: true,
+                required: false,
                 default: true
             },
 
@@ -101,7 +101,8 @@
 
                 type: Object,
                 default: function () {
-                    return { x: 'center',
+                    return {
+                        x: 'center',
                         y: 'middle'
                     }
                 }
