@@ -49,7 +49,7 @@ Vue-Crud-Button props. name, type, extras:
 | `actingMessage` | `String` | `"Wait..."` | Text to display inside the button when  a CRUD operation is in progress. |
 | `inactiveMessage` | `String` | `"Clicked"` | Text to display inside the button when  `@click` callback can't be called |
 | `animate` | `Boolean` | `true` | Use transitions for state change. Use velocity.js  |
-| `buttonStyle`| `Object`| see: [Styling the button](#-vue-crud-button-styling-object) | Styling |
+| `buttonStyle`| `Object`| see: [Styling the button](#-styling-the-button) | Styling |
                                
 
 
