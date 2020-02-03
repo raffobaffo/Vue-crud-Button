@@ -49,13 +49,13 @@ Vue-Crud-Button props. name, type, extras:
 | `actingMessage` | `String` | `"Wait..."` | Text to display inside the button when  a CRUD operation is in progress. |
 | `inactiveMessage` | `String` | `"Clicked"` | Text to display inside the button when  `@click` callback can't be called |
 | `animate` | `Boolean` | `true` | Use transitions for state change. Use velocity.js  |
-| `buttonStyle`| `Object`| see [Styling Object](##✔-Vue-Crud-Button-Styling-Object) | Styling |
+| `buttonStyle`| `Object`| see: [Styling the button](#-vue-crud-button-styling-object) | Styling |
                                
 
 
-## ✔ Vue-Crud-Button Styling Object
+## ✔ Styling the button:
 
-The styling object default is like this;
+This is the default object to style the button
 
 ```
  {
@@ -96,5 +96,20 @@ The styling object default is like this;
         }
     }
    ```
+   
+   Change them accordingly to your needs, ex.
+   ```vue
+
+    
+            <Button @click="clickFakeSave()"
+                    :animate = "true"
+                    buttonStyle="{active:{ color:'red' }"
+                    :active="shouldSave"
+                    :acting="isSaving"
+                    :inactiveMessage="'No changes to save'"
+                    :activeMessage="'Save changes'"
+                    :actingMessage="'Saving'" />
+   ```
+   
    
     
